@@ -1,0 +1,56 @@
+
+body {
+    font-family: Arial;
+    font-size: 12pt;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    width: 13px;
+    height: 13px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: linear-gradient(13deg, #AAA 14%, #AAA 64%);
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(13deg, #666 14%, #666 64%);
+}
+
+body::-webkit-scrollbar-track {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: inset 7px 10px 12px #f0f0f0;
+}
+
+p {
+    text-align: justify;
+    text-indent: 20px;
+}
+
+article h1 {
+    font-size: 15pt;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, .3);
+    padding: 5px;
+    margin: 0px;
+}
+
+article h2 {
+    font-size: 13pt;
+    color: #888888;
+    margin: 0px;
+}
+
+article {
+    margin-bottom: 800px;
+}
+
+img.img-dir {
+    display: block;
+    float: right;
+    margin-left: 10px;
+
+}
