@@ -50,3 +50,16 @@ fieldset#pedido {
     background: url(../_imagens/icone-pagamento.png) no-repeat 95% 95%;
 
 }
+.botao {
+    padding: 10px 20px;
+    border-radius: 37px;
+    position: relative;
+    left: 397px;
+    margin-bottom: 12px;
+    transition: all ease-in 0.1s;
+}
+.botao:hover {
+    transform: translateY(-3px);
+    cursor: pointer;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.3);
+}
